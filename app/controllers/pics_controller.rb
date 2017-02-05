@@ -42,7 +42,7 @@ end
   private
 
   def pic_params
-    params.require(:pic).permit(:tile, :description)
+    params.require(:pic).permit(:tile, :description, :image)
   end
 
   def find_pic

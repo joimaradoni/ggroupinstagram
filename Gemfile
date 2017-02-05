@@ -28,6 +28,7 @@ gem 'bootstrap-sass', '~> 3.2.0.2'
 gem 'coffee-script-source', '1.8.0'
 gem 'devise', '~> 3.4.1'
 gem 'paperclip', '~> 4.2.0'
+gem 'masonry-rails', '~> 0.2.1'
 #gem 'rmagick', '~> 2.15', '>= 2.15.4'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

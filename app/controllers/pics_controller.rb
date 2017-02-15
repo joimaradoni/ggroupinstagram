@@ -5,8 +5,8 @@ before_action :authenticate_user!, except: [:index, :show]
     @pics = Pic.all.order("created_at DESC")
   end
 
-def show
-end
+  def show
+  end
 
   def new
     @pic = current_user.pics.build
